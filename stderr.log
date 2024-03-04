@@ -1,0 +1,3076 @@
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7afd5545d0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7afb918310>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7af9b5d210>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7af9234890>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7af9b1e350>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'botcodeu'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (botcodeu)
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7faaa9888190>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-24 03:48:48,918 (async_telebot.py:425 MainThread) ERROR - TeleBot: "commands() missing 1 required positional argument: 'msg'"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f4f54401b50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-26 00:42:43,481 (async_telebot.py:425 MainThread) ERROR - TeleBot: "type object 'RootMinsta' has no attribute 'update_setting'"
+2022-10-26 00:43:18,048 (async_telebot.py:425 MainThread) ERROR - TeleBot: "type object 'RootMinsta' has no attribute 'update_setting'"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f6149b7d250>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f614761bbd0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f6146d01e50>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f614761be50>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f6147893490>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f61475f65d0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f94701be990>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa4093bee90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa400ff8390>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa401029cd0>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa40070d8d0>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa40070dc50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa401029d90>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7ff73acf5e50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7ff735f38290>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7ff735f51f90>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3ca6b85b50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3ca6b85110>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3ca6b8a790>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3ca6b8a190>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3ca5a92d10>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb3d3035910>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-27 01:37:33,569 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f98511aaf90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848d868d0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f984849bdd0>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-27 01:37:39,269 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+2022-10-27 01:37:42,704 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848482f10>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-27 01:37:43,977 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+2022-10-27 01:38:00,669 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848497250>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848492d50>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f984841fc10>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848425e90>
+transport: <_SelectorSocketTransport closing fd=15>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-27 01:38:02,072 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+2022-10-27 01:38:02,675 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+2022-10-27 01:38:03,781 (async_telebot.py:425 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9848436ed0>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f98484431d0>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb17b826c50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb17b8262d0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb17b826650>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/async_telebot.py:391: RuntimeWarning: coroutine 'RootMinsta.Minstabot' was never awaited
+  await handler['function'](message)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7f11b80610>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7f11286250>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f0bfdd0f490>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f0bf5885b10>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f0bf5894c10>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f0bf5894890>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3c95087090>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5c2750>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5f1990>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5c2c90>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5c2910>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5c2a90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bcbbc50>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9c5c2b50>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bce1b10>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bce1e10>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bcc8090>
+transport: <_SelectorSocketTransport closing fd=15>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bcc4990>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bce1ed0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bcd1990>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bc5ca90>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bc627d0>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f9c9bc62c50>
+transport: <_SelectorSocketTransport closing fd=15>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-28 05:21:44,507 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:46,264 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:47,214 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:47,831 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:52,068 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e048c2d0>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e04956d0>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-28 05:21:52,366 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:55,659 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e03f7b10>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e03f77d0>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e0402850>
+transport: <_SelectorSocketTransport closing fd=15>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-10-28 05:21:56,315 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+2022-10-28 05:21:56,921 (async_telebot.py:425 MainThread) ERROR - TeleBot: "'AsyncTeleBot' object has no attribute 'callback_minsta'"
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fa1e0409810>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f4466bb9d90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb418ad1b50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fb418af1a90>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f341697ef90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7b067aeb90>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f3e7ccd4790>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f567f0c7490>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676c1cd90>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676c0fed0>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676328dd0>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676c0f510>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676332110>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5676c0ff10>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5415c4a750>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5410e72e90>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5410e72690>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5410e72590>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5410591810>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f5410e722d0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7d83d68d50>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7d83d99590>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7d83d68a90>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f7d83d68050>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3ed0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3650>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008742d0>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b4cd0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b45d0>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3050>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f6400874f90>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008bdc10>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008dcf90>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007a2990>
+transport: <_SelectorSocketTransport closing fd=13>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007a2d10>
+transport: <_SelectorSocketTransport closing fd=14>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008e2c10>
+transport: <_SelectorSocketTransport closing fd=15>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008e3e90>
+transport: <_SelectorSocketTransport closing fd=16>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+1170 (42000): BLOB/TEXT column 'bot_id' used in key specification without a key length
+1146 (42S02): Table 'botcodeu_linkbot.botuser' doesn't exist
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008f5510>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+1170 (42000): BLOB/TEXT column 'bot_id' used in key specification without a key length
+1146 (42S02): Table 'botcodeu_linkbot.botuser' doesn't exist
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64008733d0>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+1170 (42000): BLOB/TEXT column 'bot_id' used in key specification without a key length
+1146 (42S02): Table 'botcodeu_linkbot.botuser' doesn't exist
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3fd0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3890>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f64007b3410>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+1170 (42000): BLOB/TEXT column 'bot_id' used in key specification without a key length
+1146 (42S02): Table 'botcodeu_linkbot.botuser' doesn't exist
+[ERROR] [UID:1143][3879283] wsgiAppHandler pApp->start_response() return NULL.
+[ERROR] [UID:1143][3879283] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/alt/python37/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 341, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run.py", line 16, in app
+    asyncio.run(multi_bot(environ))
+  File "/opt/alt/python37/lib64/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "run.py", line 35, in multi_bot
+    return bot.send_message(5037427439,f"#Error app : {e}")
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/__init__.py", line 1454, in send_message
+    entities, allow_sending_without_reply, protect_content=protect_content))
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 276, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 157, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/alt/python37/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 341, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run.py", line 16, in app
+    asyncio.run(multi_bot(environ))
+  File "/opt/alt/python37/lib64/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "run.py", line 35, in multi_bot
+    return bot.send_message(5037427439,f"#Error app : {e}")
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/__init__.py", line 1454, in send_message
+    entities, allow_sending_without_reply, protect_content=protect_content))
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 276, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 157, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fcee0a45990>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[ERROR] [UID:1143][3901047] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/opt/alt/python37/lib64/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/alt/python37/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/alt/python37/lib64/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 341, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run.py", line 16, in app
+    asyncio.run(multi_bot(environ))
+  File "/opt/alt/python37/lib64/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "run.py", line 35, in multi_bot
+    return bot.send_message(5037427439,f"#Error app : {e}")
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/__init__.py", line 1454, in send_message
+    entities, allow_sending_without_reply, protect_content=protect_content))
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 276, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/telebot/apihelper.py", line 157, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/botcodeu/virtualenv/Telegram-Bot/3.7/lib/python3.7/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7f75dbfd6ed0>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fc93c6a6710>
+transport: <_SelectorSocketTransport closing fd=9>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fc93c68c610>
+transport: <_SelectorSocketTransport closing fd=10>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fc93e31c750>
+transport: <_SelectorSocketTransport closing fd=11>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x7fc93ee9c250>
+transport: <_SelectorSocketTransport closing fd=12>
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 870, in write
+    n = self._sock.send(data)
+OSError: [Errno 9] Bad file descriptor
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib64/python3.7/asyncio/sslproto.py", line 680, in _process_write_backlog
+    self._transport.write(chunk)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 874, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 683, in _fatal_error
+    self._force_close(exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/selector_events.py", line 695, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 691, in call_soon
+    self._check_closed()
+  File "/opt/alt/python37/lib64/python3.7/asyncio/base_events.py", line 479, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
